@@ -24,3 +24,10 @@ SITE2:
       children:
         SITE2_SPINES:
         SITE2_LEAFS:
+---
+    SITE2:
+      children:
+        CVP:
+          hosts:
+              cvp:
+                ansible_host: <atd-topo12345.topo.testdrive.arista.com>
